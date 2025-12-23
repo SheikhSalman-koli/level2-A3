@@ -20,7 +20,7 @@ Stores information about customers and admins.
 
 - id (Primary Key)
 - name
-- email
+- email (unique)
 - phone
 - role
 
@@ -33,7 +33,7 @@ Stores details of vehicles available for rent.
 - name
 - type (car, bike, truck)
 - model (manufacturing year)
-- registration_number
+- registration_number (unique)
 - rental_price
 - status (available, rented, maintenance)
 
